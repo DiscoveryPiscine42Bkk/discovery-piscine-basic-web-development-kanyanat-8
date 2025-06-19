@@ -1,0 +1,121 @@
+body {
+  font-family: 'Prompt', 'Sarabun', 'Kanit', sans-serif;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.navbar .btn {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+}
+
+
+.banner {
+  background: url('../img/banner2.jpg') center/cover;
+  height: 350px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(0,0,0,0.9);
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 50px auto;
+  padding: 0 20px;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.member-profile-pic {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 20px auto 20px auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin: 0 auto 10px auto;
+}
+
+.social-icons img {
+  width: 24px;
+  margin: 0 5px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.contact-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: grey;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+section.bg-white .container {
+  text-align: center;
+  color : black;
+}
+
+section.bg-light .container {
+  text-align: left;
+  color : black;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background: #111;
+  color: white;
+}
