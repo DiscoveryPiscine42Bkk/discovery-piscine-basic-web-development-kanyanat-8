@@ -1,0 +1,48 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Parallax Sections */
+.parallax {
+  position: relative;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.bg1 {
+   background-image: url("https://preview.redd.it/show-me-your-cats-potential-meme-photo-now-v0-8pgz4s1rba3d1.jpeg?width=1080&crop=smart&auto=webp&s=0e715dafbfdbf94a656dcb58dc5f40fb679c593f");
+}
+
+.bg2 {
+   background-image: url("https://i.pinimg.com/736x/40/1c/54/401c541931fe54d99cdba80594123852.jpg");
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
+/* Middle Black Block */
+.black-block {
+  background-color: #111;
+  color: white;
+  padding: 100px 30px;
+  text-align: center;
+}
