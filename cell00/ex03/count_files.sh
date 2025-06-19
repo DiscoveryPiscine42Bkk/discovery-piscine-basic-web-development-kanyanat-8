@@ -1,0 +1,1 @@
+ls | wc -l | grep -v '^\.' | paste -sd,
